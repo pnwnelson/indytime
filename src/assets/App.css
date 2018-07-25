@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #83a136;
+  height: 50px;
+  color: white;
+}
+
+.title-thin {
+  font-weight: 100;
+}
+
+.page-header {
+  font-size: 24px;
+  font-weight: 100;
+  margin-top: 0px;
+  border-bottom: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.calendly-inline-widget {
+  min-width: 320px;
+  height: 580px;
+}
+
+.navbar {
+  border-radius: 0px;
+}
+
+.navbar-default {
+  background-color: #83a136;
+  border: none;
+  color: white;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  background-color: #aa8939;
+  color: white;
+}
+
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: #aa8939;
+  color: white;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: ;
+}
+
+.navbar-toggler {
+  color: white;
+}
+
+.collapse {
+  background-color: #83a136;
+}
+
+.collapsing {
+  background-color: #83a136;
+}
+
+.App-title {
+  font-size: 1.5em;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+h1 {
+  color: black;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
