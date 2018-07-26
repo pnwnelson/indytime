@@ -20,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "surge -p build -d indytime.surge.sh",
+    "deploy": "surge -p build -d https://indytime.surge.sh",
     "yolo": "npm run build && npm run deploy"
   }
 }

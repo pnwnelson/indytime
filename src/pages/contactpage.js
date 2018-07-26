@@ -5,6 +5,7 @@ class ContactPage extends Component {
 		return (
 			<div className="container">
 				<h1 className="page-header">Contact</h1>
+				<button className="btn btn-primary">Call Me</button>
 			</div>
 		);
 	}
