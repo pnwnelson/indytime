@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "IndyTime",
+  "name": "IndyTime",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,8 +8,11 @@
       "type": "image/x-icon"
     }
   ],
-  "start_url": "./index.html",
+  "start_url": "/",
+  "author": "@pnwnelson",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "orientation": "portrait",
+  "theme_color": "#aa8939",
+  "background_color": "#83a136",
+  "description": "Indy can help with your outdoor and animal projects!"
 }

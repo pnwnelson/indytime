@@ -5,6 +5,7 @@ class ServicesPage extends Component {
 		return (
 			<div className="container">
 				<h1 className="page-header">What I can help with...</h1>
+				<hr />
 				<ul>
 					<li>Animals/Poultry</li>
 					<li>Lawn</li>

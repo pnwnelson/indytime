@@ -23,6 +23,8 @@
   margin-top: 0px;
   border-bottom: none;
   text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 ul {
@@ -31,13 +33,39 @@ ul {
 
 .home-description-box {
   background-color: white;
-  padding: 15px 20px 10px 20px;
+  padding: 15px 20px 25px 20px;
   -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
   border-radius: 2px;
-  margin-bottom: 15px;
-  margin-top: 10px;
-  margin-left: 12.5%;
-  margin-right: 12.5%;
+  margin-bottom: 30px;
+  margin-top: 0;
+  margin-left: none;
+  margin-right: none;
+}
+
+.rate-description-box-large {
+  position: fixed;
+  top: 10px;
+  right: 28px;
+  background-color: #aa8939;
+  color: white;
+  padding: 20px 20px 25px 20px;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 40px;
+  height: 80px;
+  width: 80px;
+}
+
+.rate-description-box {
+  visibility: hidden;
+}
+
+.rate-circle-label {
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.rate {
+  margin-bottom: -10px;
 }
 
 .calendly-inline-widget {
@@ -51,11 +79,10 @@ ul {
 
 .btn-primary {
   background-color: #83a136;
-  border-color: #aa8939;
+  border-color: #83a136;
   height: 50px;
   width: 75%;
   text-align: center;
-  font-weight: 100;
   font-size: 18px;
 }
 
@@ -126,6 +153,63 @@ ul {
 
 h1 {
   color: black;
+}
+
+.footer {
+  position: fixed;
+  color: white;
+  font-weight: 100;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #aa8939;
+}
+
+.footer-text {
+  padding: 15px;
+}
+
+@media (max-width: 768px) {
+  .page-header {
+    font-size: 24px;
+    font-weight: 100;
+    margin-top: 0px;
+    border-bottom: none;
+    text-align: center;
+  }
+
+  .home-description-box {
+    background-color: white;
+    padding: 15px 20px 10px 20px;
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.12),
+      0 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+    margin-bottom: 15px;
+    margin-top: 0;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+  }
+
+  .rate-description-box-large {
+    visibility: hidden;
+  }
+
+  .rate-description-box {
+    visibility: visible;
+    background-color: white;
+    padding: 15px 20px 10px 20px;
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.12),
+      0 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+  }
+
+  .rate {
+    margin-bottom: 0;
+  }
 }
 
 @keyframes App-logo-spin {

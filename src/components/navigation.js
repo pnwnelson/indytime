@@ -19,6 +19,9 @@ class Navigation extends Component {
 					</Navbar.Header>
 					<Navbar.Collapse>
 						<Nav>
+							<LinkContainer to="/" exact activeClassName="active-link">
+								<NavItem>Home</NavItem>
+							</LinkContainer>
 							<LinkContainer to="/services">
 								<NavItem>Services</NavItem>
 							</LinkContainer>

@@ -5,6 +5,7 @@ class AboutPage extends Component {
 		return (
 			<div className="container">
 				<h1 className="page-header">Hi, I'm Indy</h1>
+				<hr />
 			</div>
 		);
 	}
