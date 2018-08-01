@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class EventOneHour extends Component {
+class EventFourHours extends Component {
 	componentDidMount() {
 		const script = document.createElement("script");
 		script.src = "https://assets.calendly.com/assets/external/widget.js";
@@ -12,11 +12,11 @@ class EventOneHour extends Component {
 			<div>
 				<div
 					className="calendly-inline-widget"
-					data-url="https://calendly.com/indynelson/1-hour"
+					data-url="https://calendly.com/indynelson/4-hours"
 				/>
 			</div>
 		);
 	}
 }
 
-export default EventOneHour;
+export default EventFourHours;

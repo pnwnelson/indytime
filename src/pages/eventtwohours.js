@@ -12,7 +12,7 @@ class EventTwoHours extends Component {
 			<div>
 				<div
 					className="calendly-inline-widget"
-					data-url="https://calendly.com/indynelson/2-hour"
+					data-url="https://calendly.com/indynelson/2-hours"
 				/>
 			</div>
 		);

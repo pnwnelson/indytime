@@ -5,7 +5,7 @@ const OneHourLink = () => {
 	return (
 		<Link to="/eventonehour">
 			<button className="btn btn-primary">
-				Schedule <b>One</b> Hour
+				<b>1</b> Hour
 			</button>
 		</Link>
 	);
@@ -15,7 +15,27 @@ const TwoHourLink = () => {
 	return (
 		<Link to="/eventtwohours">
 			<button className="btn btn-primary">
-				Schedule <b>Two</b> Hours
+				<b>2</b> Hours
+			</button>
+		</Link>
+	);
+};
+
+const ThreeHoursLink = () => {
+	return (
+		<Link to="/eventthreehours">
+			<button className="btn btn-primary">
+				<b>3</b> Hours
+			</button>
+		</Link>
+	);
+};
+
+const FourHoursLink = () => {
+	return (
+		<Link to="/eventfourhours">
+			<button className="btn btn-primary">
+				<b>4</b> Hours
 			</button>
 		</Link>
 	);
@@ -35,17 +55,23 @@ class HomePage extends Component {
 							<p>
 								Use this app to schedule a time for{" "}
 								<Link to="/about">Indy</Link> to come help with your outdoor or
-								animal project. Begin below by selecting how long you will need
-								him.
+								animal project.
 							</p>
 						</div>
 					</div>
 					<div className="col-sm-6 schedule-button-container">
+						<p>How long do you need him?</p>
 						<p>
 							<OneHourLink />
 						</p>
 						<p>
 							<TwoHourLink />
+						</p>
+						<p>
+							<ThreeHoursLink />
+						</p>
+						<p>
+							<FourHoursLink />
 						</p>
 					</div>
 				</div>
@@ -57,8 +83,9 @@ class HomePage extends Component {
 								<br /> <b>$15/hr</b>
 							</p>
 						</div>
-						<div className="rate-description-box text-center">
-							<p className="rate">Rate is $15 per hour</p>
+						<hr />
+						<div className="rate-container">
+							<p className="rate text-center">Rate is $15 per hour</p>
 						</div>
 					</div>
 				</div>

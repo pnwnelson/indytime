@@ -6,6 +6,8 @@ import AboutPage from "./../pages/aboutpage";
 import ContactPage from "./../pages/contactpage";
 import EventOneHour from "./../pages/eventonehour";
 import EventTwoHours from "./../pages/eventtwohours";
+import EventThreeHours from "./../pages/eventthreehours";
+import EventFourHours from "./../pages/eventfourhours";
 
 class Main extends Component {
 	render() {
@@ -17,6 +19,8 @@ class Main extends Component {
 				<Route path="/about" component={AboutPage} />
 				<Route path="/eventonehour" component={EventOneHour} />
 				<Route path="/eventtwohours" component={EventTwoHours} />
+				<Route path="/eventthreehours" component={EventThreeHours} />
+				<Route path="/eventfourhours" component={EventFourHours} />
 			</Switch>
 		);
 	}
